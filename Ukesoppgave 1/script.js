@@ -20,3 +20,12 @@ categoryButtons.forEach(button => {
         document.getElementById(category).style.display = 'block';
     });
 });
+
+//Endre tema
+const themeToggle = document.getElementById('theme-toggle');
+
+// Lytt til klikk på temaendringsknappen
+themeToggle.addEventListener('click', () => {
+    // Legg til eller fjern "dark-theme" klassen på body
+    document.body.classList.toggle('dark-theme');
+});
