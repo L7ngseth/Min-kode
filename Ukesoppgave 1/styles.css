@@ -1,0 +1,54 @@
+/* Generell styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+}
+
+/* Kategoriknapper */
+#category-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Aktiv kategoriknapp */
+.active {
+    background-color: #0056b3;
+}
+
+/* Om meg, prosjekter, kontakt seksjoner */
+.category-section {
+    display: none;
+    text-align: center;
+}
+
+#profile-picture img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}

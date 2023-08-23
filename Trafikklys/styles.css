@@ -1,0 +1,18 @@
+#traffic-light {
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  #red { background-color: red; }
+  #yellow { background-color: yellow; }
+  #green { background-color: green; }
+  
