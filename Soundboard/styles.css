@@ -1,0 +1,10 @@
+/* styles.css */
+.clickable {
+    background-color: #1267a0;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 500px;
+  }
+  

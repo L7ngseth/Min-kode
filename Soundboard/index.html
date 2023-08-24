@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klikkbare Elementer med Lyd</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Soundboard</h1>
+  <div class="clickable" onclick="playAudio('Soundboard_sounds_bubbles.mp3')">Bubbles</div>
+  <div class="clickable" onclick="playAudio('Soundboard_sounds_clay.mp3')">Clay</div>
+  <div class="clickable" onclick="playAudio('Soundboard_sounds_confetti.mp3')">Confetti</div>
+  <div class="clickable" onclick="playAudio('Soundboard_sounds_glimmer.mp3')">Glimmer</div>
+  <div class="clickable" onclick="playAudio('Soundboard_sounds_moon.mp3')">Moon</div>
+  <div id="audioContainer">
+    <audio id="audioPlayer" controls>
+      <source id="audioSource" src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
